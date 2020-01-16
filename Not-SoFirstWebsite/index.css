@@ -2,8 +2,41 @@
 body
 {
     font-family: Comic Sans MS;
+    color: white;
+    background-color: grey;
 
 
+}
+
+.Bottom
+{
+    text-align: center;
+
+    font-size: 30pt;
+}
+
+.Button
+{
+    font-size: 45pt;
+
+    text-align: center;
+}
+
+button
+{
+    width: 500pt;
+    height: 100pt;
+
+    font-size: 30pt;
+
+    background-color: salmon;
+}
+
+.List
+{
+    margin: 150pt;
+
+    font-size: 30pt;
 }
 
 .Title
@@ -13,16 +46,6 @@ body
     text-align: center;
 }
 
-.Button
-{
-    font-size: 50px;
 
-    text-align: center;
-}
 
-button
-{
-    width: 500px;
-    height: 100px;
-}
 

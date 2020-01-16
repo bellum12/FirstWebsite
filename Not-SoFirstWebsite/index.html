@@ -6,6 +6,17 @@
 
     <title> Hello! </title>
 
+    <script>
+var n = 0;
+
+function button()
+{
+    n++;
+
+    document.getElementById("N").style.color = "blue";
+}
+    </script>
+
     <link rel="stylesheet" href="index.css">
 
 </head>
@@ -21,35 +32,44 @@
     </div>
 
     <div class = "Button">
-        <button>This is a button!</button>
+        <button onclick="button()">This is a button!</button>
 
-        <p>Click it ^^^</p>
+        <p id="N">Click it ^^^</p>
     </div>
 
-    <ol>
-        <li> This is list item 1 </li>
-        <li> This is list item 2 </li>
-        <li> This is list item 3 </li>
+    <div class = "List">
+            <h3>This is an ordered list</h3>
 
-    </ol>
+        <ol>
+            <li> This is list item 1 </li>
+            <li> This is list item 2 </li>
+            <li> This is list item 3 </li>
 
-    <ul>
-        <li> This is list item 1 </li>
-        <li> This is list item 2 </li>
-        <li> This is list item 3 </li>
+        </ol>
+        <h3>This is an unordered list</h3>
 
-    </ul>
+        <ul>
 
-    <a href="https://www.google.com"> Click Me! its a website! :)</a>
+            <li> This is list item 1 </li>
+            <li> This is list item 2 </li>
+            <li> This is list item 3 </li>
 
-    <br>
+        </ul>
+    </div>>
 
-    <img src = "Back.jpg">
+    <div class = "Bottom">
+        <a href="https://www.google.com"> Click Me! its a website! :)</a>
 
-    <p>YT</p>
+        <br>
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/mLyOj_QD4a4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <img src = "Back.jpg" width = "600" height = "500">
+
+        <p>YT</p>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/mLyOj_QD4a4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 </body>
+
 
 
 </html>
